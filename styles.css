@@ -11,13 +11,46 @@
 .navbar {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 20px;
     padding-right: 40px;
     background-color: black;
     font-family: 'Space Mono', monospace;
     color: aliceblue;
+
+    /* gap: 1em;  */
 }
+
+.navbar li {
+    /* border: 2px solid white;
+    padding: 10px 20px; */
+    padding: .25em .5em;
+    border: 0.1em solid aliceblue;    
+}
+
+.navbar .left {
+    margin-right: auto; /* Push items on the left side */
+  }
+  
+.navbar .right {
+        /* margin-left: auto; Push items to the right side */
+    text-align: right; 
+}
+
+
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 0.5em; /* Space between items */
+    margin
+}
+
+.menu li {
+    position: relative; /* Enable positioning for dropdowns */
+    padding: 0.5em 1em;
+    border: 1px solid white;
+    cursor: pointer
+}  
 
 body {
     background-color: bisque;
